@@ -1,0 +1,14 @@
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Control_Variable_Data\bin\Debug\net10.0\Control_Variable_Data.exe
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Control_Variable_Data\bin\Debug\net10.0\Control_Variable_Data.deps.json
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Control_Variable_Data\bin\Debug\net10.0\Control_Variable_Data.runtimeconfig.json
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Control_Variable_Data\bin\Debug\net10.0\Control_Variable_Data.dll
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Control_Variable_Data\bin\Debug\net10.0\Control_Variable_Data.pdb
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Control_Variable_Data\obj\Debug\net10.0\Control_Variable_Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Control_Variable_Data\obj\Debug\net10.0\Control_Variable_Data.AssemblyInfoInputs.cache
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Control_Variable_Data\obj\Debug\net10.0\Control_Variable_Data.AssemblyInfo.cs
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Control_Variable_Data\obj\Debug\net10.0\Control_Variable_Data.csproj.CoreCompileInputs.cache
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Control_Variable_Data\obj\Debug\net10.0\Control_Variable_Data.dll
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Control_Variable_Data\obj\Debug\net10.0\refint\Control_Variable_Data.dll
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Control_Variable_Data\obj\Debug\net10.0\Control_Variable_Data.pdb
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Control_Variable_Data\obj\Debug\net10.0\Control_Variable_Data.genruntimeconfig.cache
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Control_Variable_Data\obj\Debug\net10.0\ref\Control_Variable_Data.dll

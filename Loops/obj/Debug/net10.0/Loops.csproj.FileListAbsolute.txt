@@ -1,0 +1,14 @@
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Loops\bin\Debug\net10.0\Loops.exe
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Loops\bin\Debug\net10.0\Loops.deps.json
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Loops\bin\Debug\net10.0\Loops.runtimeconfig.json
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Loops\bin\Debug\net10.0\Loops.dll
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Loops\bin\Debug\net10.0\Loops.pdb
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Loops\obj\Debug\net10.0\Loops.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Loops\obj\Debug\net10.0\Loops.AssemblyInfoInputs.cache
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Loops\obj\Debug\net10.0\Loops.AssemblyInfo.cs
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Loops\obj\Debug\net10.0\Loops.csproj.CoreCompileInputs.cache
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Loops\obj\Debug\net10.0\Loops.dll
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Loops\obj\Debug\net10.0\refint\Loops.dll
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Loops\obj\Debug\net10.0\Loops.pdb
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Loops\obj\Debug\net10.0\Loops.genruntimeconfig.cache
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\Loops\obj\Debug\net10.0\ref\Loops.dll
