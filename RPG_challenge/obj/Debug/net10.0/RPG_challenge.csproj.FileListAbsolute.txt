@@ -1,0 +1,15 @@
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\RPG_challenge\bin\Debug\net10.0\RPG_challenge.exe
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\RPG_challenge\bin\Debug\net10.0\RPG_challenge.deps.json
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\RPG_challenge\bin\Debug\net10.0\RPG_challenge.runtimeconfig.json
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\RPG_challenge\bin\Debug\net10.0\RPG_challenge.dll
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\RPG_challenge\bin\Debug\net10.0\RPG_challenge.pdb
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\RPG_challenge\obj\Debug\net10.0\RPG_challenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\RPG_challenge\obj\Debug\net10.0\RPG_challenge.AssemblyInfoInputs.cache
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\RPG_challenge\obj\Debug\net10.0\RPG_challenge.AssemblyInfo.cs
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\RPG_challenge\obj\Debug\net10.0\RPG_challenge.csproj.CoreCompileInputs.cache
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\RPG_challenge\obj\Debug\net10.0\RPG_challenge.sourcelink.json
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\RPG_challenge\obj\Debug\net10.0\RPG_challenge.dll
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\RPG_challenge\obj\Debug\net10.0\refint\RPG_challenge.dll
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\RPG_challenge\obj\Debug\net10.0\RPG_challenge.pdb
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\RPG_challenge\obj\Debug\net10.0\RPG_challenge.genruntimeconfig.cache
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\RPG_challenge\obj\Debug\net10.0\ref\RPG_challenge.dll
