@@ -6,8 +6,8 @@ class Program
 {
     static void Main(string[] args)
     {
+        /*
        // Challenge 1 - Validate integer input
-
        string? input;
        Console.WriteLine("Enter a number between 5 and 10.\n");
 
@@ -22,7 +22,6 @@ class Program
                Console.WriteLine("Please enter a number.");
                continue;
            }
-
            if (num < 5)
            {
                Console.WriteLine("The number needs to be above or equal to 5.");
@@ -36,6 +35,28 @@ class Program
                Console.WriteLine($"You entered: {input}");
                break;
            }
-       }
+            
+           Console.WriteLine("Enter your role. \nAdministrator, Manager or user: \n");
+           
+           bool validEntry = true;
+
+           while (validEntry)
+           {
+               string? userInput = Console.ReadLine();
+               string input = userInput.ToLower().Trim();
+
+               if (input == "administrator" || input== "manager" || input == "user")
+               {
+                   Console.WriteLine($"Welcome {userInput.Trim()}");
+                   validEntry = false;
+               }
+               else
+               {
+                   Console.WriteLine("Enter a valid answer.");
+                   userInput = Console.ReadLine();
+               }
+           }
+           */
+        
     }
 }
