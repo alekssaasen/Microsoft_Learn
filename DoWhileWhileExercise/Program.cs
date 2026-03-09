@@ -36,8 +36,8 @@ class Program
                break;
            }
             
+            // Exercise 2
            Console.WriteLine("Enter your role. \nAdministrator, Manager or user: \n");
-           
            bool validEntry = true;
 
            while (validEntry)
@@ -57,6 +57,22 @@ class Program
                }
            }
            */
-        
+        // Exercise 3
+        string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
+        int periodLocation;
+
+        foreach (string myString in myStrings)
+        {
+            periodLocation = myString.IndexOf(".");
+
+            while (periodLocation != -1)
+            {
+                
+            }
+            
+            
+            
+        }
+
     }
 }
