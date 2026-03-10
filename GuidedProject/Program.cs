@@ -110,15 +110,82 @@ class Program
         {
             case "1":
                 // List all of our current pet information
-                Console.WriteLine("This app feature is coming soon - Check later for progress.");
+                for (int i = 0; i < maxPets; i++)
+                {
+                    if (ourAnimals[i, 0] != "ID #: ")
+                    {
+                        Console.WriteLine();
+                        for (int j = 0; j < 6; j++)
+                        {
+                            Console.WriteLine(ourAnimals[i, j]);
+                        }
+                    }
+                }
                 Console.WriteLine("Press enter to continue.");
                 readResult = Console.ReadLine();
                 break;
             case "2":
                 // Add a new animal friend to the ourAnimals array
-                Console.WriteLine("this app feature is coming soon - please check back to see progress.");
-                Console.WriteLine("Press the Enter key to continue.");
-                readResult = Console.ReadLine();
+                string anotherPet = "y";
+                int petCount = 0;
+                for (int i = 0; i < maxPets; i++)
+                {
+                    if (ourAnimals[i, 0] != "ID #: ")
+                    {
+                        petCount += 1;
+                    }
+                }
+                
+                if (petCount < maxPets)
+                {
+                    Console.WriteLine($"We currently have {petCount} pets that need homes. We can manage {(maxPets - petCount)} more.");
+                }
+
+                while (anotherPet == "y" && petCount < maxPets)
+                {
+                    petCount = petCount + 1;
+                    
+                    if (petCount < maxPets)
+                    {
+                        // another pet?
+                        Console.WriteLine("Do you want to enter info for another pet (y/n)");
+                        do
+                        {
+                            readResult = Console.ReadLine();
+                            if (readResult != null)
+                            {
+                                anotherPet = readResult.ToLower();
+                                Console.WriteLine($"We have now {petCount} clients.");
+                            }
+                            bool validEntry = false;
+                            // get species (cat or dog) - string animalSpecies is a required field
+                            do
+                            {
+                                Console.WriteLine("\n\rEnter 'dog' or 'cat' to begin a new entry");
+                                readResult = Console.ReadLine();
+                                if (readResult != null)
+                                {
+                                    animalSpecies = readResult.ToLower();
+                                    if (animalSpecies != "dog" && animalSpecies != "cat")
+                                    {
+                                        //Console.WriteLine($"You entered {animalSpecies}");
+                                        validEntry = false;
+                                    }
+                                    else
+                                    {
+                                        validEntry = true;
+                                    }
+                                }
+                            } while (validEntry == false);
+
+                        } while (anotherPet != "y" && anotherPet != "n");
+                    }
+                }
+                if (petCount >= maxPets)
+                {
+                    Console.WriteLine("No more pets can be added.\nPress the Enter key to continue.");
+                    readResult = Console.ReadLine();
+                }
                 break;
             case "3":
                 // Ensure animal ages and physical descriptions are complete
