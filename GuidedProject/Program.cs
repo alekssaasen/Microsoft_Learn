@@ -128,6 +128,8 @@ class Program
                 // Add a new animal friend to the ourAnimals array
                 string anotherPet = "y";
                 int petCount = 0;
+                bool validEntry = false;
+                
                 for (int i = 0; i < maxPets; i++)
                 {
                     if (ourAnimals[i, 0] != "ID #: ")
@@ -143,8 +145,60 @@ class Program
 
                 while (anotherPet == "y" && petCount < maxPets)
                 {
-                    petCount = petCount + 1;
+                    do
+                    {
+                        Console.WriteLine("\n\rEnter 'dog' or 'cat' to begin a new entry");
+                        readResult = Console.ReadLine();
+                        if (readResult != null)
+                        {
+                            animalSpecies = readResult.ToLower();
+                            if (animalSpecies != "dog" && animalSpecies != "cat")
+                            {
+                                //Console.WriteLine($"You entered {animalSpecies}");
+                                validEntry = false;
+                            }
+                            else
+                            {
+                                validEntry = true;
+                            }
+                        }
+                    } while (validEntry == false);
                     
+                    animalID = animalSpecies.Substring(0, 1) + (petCount + 1).ToString();
+                    do
+                    {
+                        int petAge;
+                        Console.WriteLine("Enter the pet's age or enter ? if unknown");
+                        readResult = Console.ReadLine();
+                        if (readResult != null)
+                        {
+                            animalAge = readResult;
+                            if (animalAge != "?")
+                            {
+                                validEntry = int.TryParse(animalAge, out petAge);
+                            }
+                            else
+                            {
+                                validEntry = true;
+                            }
+                        }
+                    } while (!validEntry);
+
+                    do
+                    {
+                        Console.WriteLine("Enter a physical description of the pet (size, color, gender, weight, housebroken)");
+                        readResult = Console.ReadLine();
+                        if (animalPhysicalDescription != null)
+                        {
+                            animalPhysicalDescription = readResult.ToLower();
+                            if (animalPhysicalDescription == "")
+                            {
+                                animalPhysicalDescription = "tbd";
+                            }
+                        }
+                    } while (animalPhysicalDescription == "");
+                    
+                    petCount = petCount + 1;
                     if (petCount < maxPets)
                     {
                         // another pet?
@@ -157,26 +211,7 @@ class Program
                                 anotherPet = readResult.ToLower();
                                 Console.WriteLine($"We have now {petCount} clients.");
                             }
-                            bool validEntry = false;
                             // get species (cat or dog) - string animalSpecies is a required field
-                            do
-                            {
-                                Console.WriteLine("\n\rEnter 'dog' or 'cat' to begin a new entry");
-                                readResult = Console.ReadLine();
-                                if (readResult != null)
-                                {
-                                    animalSpecies = readResult.ToLower();
-                                    if (animalSpecies != "dog" && animalSpecies != "cat")
-                                    {
-                                        //Console.WriteLine($"You entered {animalSpecies}");
-                                        validEntry = false;
-                                    }
-                                    else
-                                    {
-                                        validEntry = true;
-                                    }
-                                }
-                            } while (validEntry == false);
 
                         } while (anotherPet != "y" && anotherPet != "n");
                     }
