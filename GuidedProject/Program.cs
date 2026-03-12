@@ -16,6 +16,8 @@ class Program
         int maxPets = 8;
         string? readResult;
         string menuSelection = "";
+        bool validEntry = false;
+        int petAge;
 
         // array used to store runtime data, there is no persisted data
         string[,] ourAnimals = new string[maxPets, 6];
@@ -128,7 +130,7 @@ class Program
                 // Add a new animal friend to the ourAnimals array
                 string anotherPet = "y";
                 int petCount = 0;
-                bool validEntry = false;
+                
                 
                 for (int i = 0; i < maxPets; i++)
                 {
@@ -169,7 +171,6 @@ class Program
                     // Add petAge
                     do
                     {
-                        int petAge;
                         Console.WriteLine("Enter the pet's age or enter ? if unknown");
                         readResult = Console.ReadLine();
                         if (readResult != null)
@@ -263,14 +264,108 @@ class Program
                 break;
             case "3":
                 // Ensure animal ages and physical descriptions are complete
-                Console.WriteLine("Challenge Project - please check back soon to see progress.");
-                Console.WriteLine("Press the Enter key to continue.");
+                
+                // Assign a valid numeric value to petAge for any animal that's been assigned data in ourAnimals Array but has NOT been assigned age.
+                for (int i = 0; i < maxPets; i++)
+                {
+                    if (ourAnimals[i, 2] == "Age: ?" && ourAnimals[i, 0] != "ID #: ")
+                    {
+                        do
+                        {
+                            Console.WriteLine($"Enter an age for {ourAnimals[i, 0]}");
+                            readResult = Console.ReadLine();
+                            if (readResult != null)
+                            {
+                                animalAge = readResult.ToLower().Trim();
+                                validEntry = int.TryParse(animalAge, out petAge);
+                            }
+                        } while (validEntry == false);
+
+                        ourAnimals[i, 2] = "Age: " + animalAge.ToString();
+                    }
+                    // Assign a valid string to petPhysicalDescription for any animal that's been assigned data in ourAnimals Array but has NOT been assigned desc...
+                    if (ourAnimals[i, 4] == "Physical description: " && ourAnimals[i, 0] != "ID #: ")
+                    {
+                        do
+                        {
+                            Console.WriteLine($"Enter a physical description for {ourAnimals[i, 0]} (size, color, gender, weight, housebroken)");
+                            readResult = Console.ReadLine();
+                            if (readResult != null)
+                            {
+                                animalPhysicalDescription = readResult.ToLower().Trim();
+                            }
+                            if (animalPhysicalDescription == "" || animalPhysicalDescription.EndsWith(" "))
+                            {
+                                validEntry = false;
+                            }
+                            else
+                            {
+                                validEntry = true;
+                            }
+                            
+                        } while (validEntry == false);
+                        ourAnimals[i, 4] = "Physical description: " + animalPhysicalDescription.ToString();
+                    }
+                }
+                // Verify that physical descriptions have an assigned value. Values cant have 0 characters.
+                Console.WriteLine("\n\rAge and physical description fields are complete for all of our friends. \n\rPress the Enter key to continue");
                 readResult = Console.ReadLine();
                 break;
             case "4":
                 // Ensure animal nicknames and personality descriptions are complete
-                Console.WriteLine("Challenge Project - please check back soon to see progress.");
-                Console.WriteLine("Press the Enter key to continue.");
+                for (int i = 0; i < maxPets; i++)
+                {
+                    // Assign a valid string to petNickname for any animal that has been assigned data in the ourAnimals array but has not been assigned a nickname.
+                    if (ourAnimals[i, 3] == "Nickname: " && ourAnimals[i, 0] != "ID #: ")
+                    {
+                        do
+                        {
+                            Console.WriteLine($"Add a new nickname for {ourAnimals[i, 0]}: ");
+                            readResult = Console.ReadLine();
+                            if (readResult != null)
+                            {
+                                animalNickname = readResult.ToLower();
+                            }
+                            if (animalNickname == "" || int.TryParse(readResult, out _))
+                            {
+                                validEntry = false;
+                                Console.WriteLine("A nickname cant be a number, or contain 0 characters.");
+                            }
+                            else
+                            {
+                                validEntry = true;
+                            }
+                        } while (validEntry == false);
+                        ourAnimals[i, 3] = "Nickname: " + animalNickname.ToString();
+                    }
+
+                    // Assign a valid string to petPersonalityDescription for any animal that has been assigned data in the ourAnimals array but has not been assigned a personality description.
+                    if (ourAnimals[i, 5] == "Personality: " && ourAnimals[i, 0] != "ID #: ")
+                    {
+                        do
+                        {
+                            Console.WriteLine($"Add a new personality trait for {ourAnimals[i, 0]} (Happy, sad, energetic...): ");
+                            readResult = Console.ReadLine();
+                            if (readResult != null)
+                            {
+                                animalPersonalityDescription = readResult.ToLower();
+                            }
+                            if (animalPersonalityDescription == "" || int.TryParse(readResult, out _))
+                            {
+                                Console.WriteLine("The pets personality cant be a number, or contain 0 characters.");
+                                validEntry = false;
+                            }
+                            else
+                            {
+                                validEntry = true;
+                            }
+                        } while (validEntry == false);
+
+                        ourAnimals[i, 5] = "Personality: " + animalPersonalityDescription.ToString();
+                    }
+                }
+                // Verify that nicknames and personality descriptions have an assigned value. Assigned values cannot have zero characters.
+                Console.WriteLine("\n\rNickname(s) and personality description fields are complete for all of our friends. \n\rPress the Enter key to continue");
                 readResult = Console.ReadLine();
                 break;
             case "5":
