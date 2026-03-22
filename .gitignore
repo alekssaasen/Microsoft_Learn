@@ -1,7 +1,6 @@
-*/obj/
-*/bin/
-.idea/
-.user
-.sln.user
 **/obj/
 **/bin/
+.idea/
+*.user
+*.sln.user
+**/.DS_Store
