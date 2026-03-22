@@ -1,0 +1,15 @@
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\DoWhileWhileExercise\bin\Debug\net10.0\DoWhileWhileExercise.exe
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\DoWhileWhileExercise\bin\Debug\net10.0\DoWhileWhileExercise.deps.json
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\DoWhileWhileExercise\bin\Debug\net10.0\DoWhileWhileExercise.runtimeconfig.json
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\DoWhileWhileExercise\bin\Debug\net10.0\DoWhileWhileExercise.dll
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\DoWhileWhileExercise\bin\Debug\net10.0\DoWhileWhileExercise.pdb
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\DoWhileWhileExercise\obj\Debug\net10.0\DoWhileWhileExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\DoWhileWhileExercise\obj\Debug\net10.0\DoWhileWhileExercise.AssemblyInfoInputs.cache
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\DoWhileWhileExercise\obj\Debug\net10.0\DoWhileWhileExercise.AssemblyInfo.cs
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\DoWhileWhileExercise\obj\Debug\net10.0\DoWhileWhileExercise.csproj.CoreCompileInputs.cache
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\DoWhileWhileExercise\obj\Debug\net10.0\DoWhileWhileExercise.sourcelink.json
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\DoWhileWhileExercise\obj\Debug\net10.0\DoWhileWhileExercise.dll
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\DoWhileWhileExercise\obj\Debug\net10.0\refint\DoWhileWhileExercise.dll
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\DoWhileWhileExercise\obj\Debug\net10.0\DoWhileWhileExercise.pdb
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\DoWhileWhileExercise\obj\Debug\net10.0\DoWhileWhileExercise.genruntimeconfig.cache
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\DoWhileWhileExercise\obj\Debug\net10.0\ref\DoWhileWhileExercise.dll

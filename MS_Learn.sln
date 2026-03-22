@@ -1,22 +1,22 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boolean", "Boolean\Boolean.csproj", "{877208BE-CDA5-4DC9-B5B8-CD6B11122302}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boolean", "module3\Boolean\Boolean.csproj", "{877208BE-CDA5-4DC9-B5B8-CD6B11122302}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Control_Variable_Data", "Control_Variable_Data\Control_Variable_Data.csproj", "{9ADD3749-37DC-458D-90E4-0048EE4BB328}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Control_Variable_Data", "module3\Control_Variable_Data\Control_Variable_Data.csproj", "{9ADD3749-37DC-458D-90E4-0048EE4BB328}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchStatements", "SwitchStatements\SwitchStatements.csproj", "{DDC75962-4388-4546-9BB3-3D8FDD61CE5E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchStatements", "module3\SwitchStatements\SwitchStatements.csproj", "{DDC75962-4388-4546-9BB3-3D8FDD61CE5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{9E22E8D0-7AFE-49AD-B0ED-B53839896048}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "module3\Loops\Loops.csproj", "{9E22E8D0-7AFE-49AD-B0ED-B53839896048}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{ABBFDE05-54A7-4493-85CF-442CCA0004B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "module3\FizzBuzz\FizzBuzz.csproj", "{ABBFDE05-54A7-4493-85CF-442CCA0004B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "doWhile", "doWhile\doWhile.csproj", "{C7E0295C-4435-4131-B308-EA50E6D62CBF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "doWhile", "module3\doWhile\doWhile.csproj", "{C7E0295C-4435-4131-B308-EA50E6D62CBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPG_challenge", "RPG_challenge\RPG_challenge.csproj", "{A166189B-EDCA-4340-9234-098B8047E48A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPG_challenge", "module3\RPG_challenge\RPG_challenge.csproj", "{A166189B-EDCA-4340-9234-098B8047E48A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoWhileWhileExercise", "DoWhileWhileExercise\DoWhileWhileExercise.csproj", "{B171F806-F6EA-45FF-9051-816E40881AD0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoWhileWhileExercise", "module3\DoWhileWhileExercise\DoWhileWhileExercise.csproj", "{B171F806-F6EA-45FF-9051-816E40881AD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidedProject", "GuidedProject\GuidedProject.csproj", "{A148E48F-4593-4593-B0BF-21AA2EA23A82}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuidedProject", "module3\GuidedProject\GuidedProject.csproj", "{A148E48F-4593-4593-B0BF-21AA2EA23A82}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module3", "Module3", "{47A50EC1-ACD1-46A9-8B26-CE9E4FDF4EEE}"
 EndProject

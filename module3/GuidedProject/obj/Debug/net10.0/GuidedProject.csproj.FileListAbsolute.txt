@@ -1,0 +1,15 @@
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\GuidedProject\bin\Debug\net10.0\GuidedProject.exe
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\GuidedProject\bin\Debug\net10.0\GuidedProject.deps.json
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\GuidedProject\bin\Debug\net10.0\GuidedProject.runtimeconfig.json
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\GuidedProject\bin\Debug\net10.0\GuidedProject.dll
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\GuidedProject\bin\Debug\net10.0\GuidedProject.pdb
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\GuidedProject\obj\Debug\net10.0\GuidedProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\GuidedProject\obj\Debug\net10.0\GuidedProject.AssemblyInfoInputs.cache
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\GuidedProject\obj\Debug\net10.0\GuidedProject.AssemblyInfo.cs
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\GuidedProject\obj\Debug\net10.0\GuidedProject.csproj.CoreCompileInputs.cache
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\GuidedProject\obj\Debug\net10.0\GuidedProject.sourcelink.json
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\GuidedProject\obj\Debug\net10.0\GuidedProject.dll
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\GuidedProject\obj\Debug\net10.0\refint\GuidedProject.dll
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\GuidedProject\obj\Debug\net10.0\GuidedProject.pdb
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\GuidedProject\obj\Debug\net10.0\GuidedProject.genruntimeconfig.cache
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\GuidedProject\obj\Debug\net10.0\ref\GuidedProject.dll

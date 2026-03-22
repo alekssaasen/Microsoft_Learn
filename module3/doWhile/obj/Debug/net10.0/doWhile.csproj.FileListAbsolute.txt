@@ -1,0 +1,14 @@
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\doWhile\bin\Debug\net10.0\doWhile.exe
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\doWhile\bin\Debug\net10.0\doWhile.deps.json
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\doWhile\bin\Debug\net10.0\doWhile.runtimeconfig.json
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\doWhile\bin\Debug\net10.0\doWhile.dll
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\doWhile\bin\Debug\net10.0\doWhile.pdb
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\doWhile\obj\Debug\net10.0\doWhile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\doWhile\obj\Debug\net10.0\doWhile.AssemblyInfoInputs.cache
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\doWhile\obj\Debug\net10.0\doWhile.AssemblyInfo.cs
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\doWhile\obj\Debug\net10.0\doWhile.csproj.CoreCompileInputs.cache
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\doWhile\obj\Debug\net10.0\doWhile.dll
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\doWhile\obj\Debug\net10.0\refint\doWhile.dll
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\doWhile\obj\Debug\net10.0\doWhile.pdb
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\doWhile\obj\Debug\net10.0\doWhile.genruntimeconfig.cache
+C:\Users\aleks\Documents\gokstad-akademiet\learn_c#\MS_module3\doWhile\obj\Debug\net10.0\ref\doWhile.dll
