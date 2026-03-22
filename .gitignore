@@ -3,3 +3,5 @@
 .idea/
 .user
 .sln.user
+**/obj/
+**/bin/
