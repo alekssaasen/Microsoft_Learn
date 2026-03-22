@@ -1,4 +1,4 @@
-﻿namespace Module4;
+﻿namespace IntegralTypes;
 
 class Program
 {
